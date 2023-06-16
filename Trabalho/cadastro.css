@@ -1,0 +1,19 @@
+.pad{
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+body{
+    
+}
+.cad{
+    background-color: gray;
+}
+.sob2 .sob1{
+    position: relative;
+}
+.sob2{
+    position: absolute;
+}

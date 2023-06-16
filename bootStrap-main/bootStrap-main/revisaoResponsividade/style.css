@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 80%;
+}
+header nav{
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly; /*espaço equivalente*/
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase; /* tranforma as letras em maiusculas*/
+}
+.hamburguer{
+    display: none;
+}
+.p1{
+    background-image: url(img/imagem-fundo-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 1px;
+}
+.p1 .titulo{
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-transform: uppercase; /*letras maiusculas*/
+}
+.titulo h2{
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+.titulo img {
+    width: 10%;
+}
+@media screen and  (max-width: 768px){
+    .hamburguer{
+        display: inline;
+    }
+    header nav{
+        display: none;
+    }
+    
+}
