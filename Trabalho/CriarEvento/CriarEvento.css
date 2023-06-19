@@ -48,7 +48,7 @@ button {
 
 .card {
   width: 200px;
-  height: 300px;
+  height: 400px;
   align-items: center;
   text-align: center;
   background-color: #585454;
@@ -56,16 +56,22 @@ button {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
+  margin-left: 5px;
   
 }
 
 .card img {
-  width: 50%;
+  width: 70%;
   height: auto;
   margin-bottom: 10px;
 }
 
- 
+#meus-cards {
+  padding: 3%;
+  display: flex;
+  height: 400px;
+
+}
  
  
  
