@@ -33,7 +33,7 @@ function toggleMenu() {
   
    
     alert("Cadastro realizado com sucesso!");
-    window.location.href = "http://localhost:52330/login/Login.html"; /* o link vai se alterar em seu pc professor*/
+    window.location.href = "http://localhost:52331/login/Login.html";
   
    
     document.getElementById("nome").value = "";
