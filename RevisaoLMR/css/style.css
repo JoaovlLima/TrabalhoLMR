@@ -1,0 +1,67 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+header{
+    background-color: gray;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+header img{
+height: 100%;
+
+}
+.menu1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.linkMenu{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+.hb{
+    display: none;
+
+}
+.menuHB{
+    display: none;
+    
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin-top: 90%;
+    background-color: gray;
+    
+}
+footer a{
+    align-items: center;
+}
+.camada1{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+
+
+
+@media screen and(max-width:1024px){
+    .menu1{ display: none;}
+    .hb{display: inline;}
+
+    .hb:hover ~ .menuHB, .menuHB:hover{
+        display: block;
+    }
+
+}
+
