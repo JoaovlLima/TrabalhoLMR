@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color:rgb(65, 81, 74);
+    text-decoration: none;
+
+
+
+}
+body .a{
+    text-decoration: none;
+
+}
+.menu1{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+
+}
+.linkMenu{
+    color: rgb(250, 253, 255);
+    text-decoration: none;
+
+}
+
+header{
+    background-color: gray;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.titulo{
+    width: 80%;
+    height: 50vh;
+    margin-left: 15vh;
+    margin-right: 5vh;
+    background-color: rgba(161, 202, 235, 0.555);
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    
+
+}
+.imagembody{
+    margin-top: 0;
+width: 100%;
+height: 80vh;
+background-image: url(https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D&w=1000&q=80);
+background-repeat: no-repeat;   
+background-position: center;
+background-size: 100%;
+}
+.camada1{
+    width: 90%;
+    height: 70vh;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.card{
+   
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+    
+
+}
+.imagecard{
+    width: 180px;
+    height: 150px;
+    margin: 10px;
+    
+    
+    
+
+    
+
+}
+.imagecard img{
+width: 100%;
+height: 100%;
+border: 90px;
+
+}
