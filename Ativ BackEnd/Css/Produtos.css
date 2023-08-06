@@ -39,13 +39,13 @@ header{
     height: 50vh;
     margin-left: 15vh;
     margin-right: 5vh;
-    background-color: rgba(161, 202, 235, 0.555);
+    background-color: rgba(161, 202, 235, 0.336);
     margin-top: 0;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30%;
+    border-radius: 50%;
     
 
 }
@@ -57,6 +57,8 @@ background-image: url(https://images.unsplash.com/photo-1464925257126-6450e871c6
 background-repeat: no-repeat;   
 background-position: center;
 background-size: 100%;
+display: flex;
+align-items: center;
 }
 .camada1{
     width: 90%;
@@ -69,23 +71,21 @@ background-size: 100%;
 }
 .card{
    
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 500px;
     background-color: aliceblue;
-    display: flex;
+    border: 5px solid rgb(91, 96, 107);
+  
     border-radius: 10px;
     
 
 }
 .imagecard{
-    width: 180px;
-    height: 150px;
+    width: 280px;
+    height: 250px;
     margin: 10px;
     
-    
-    
-
-    
+      
 
 }
 .imagecard img{
@@ -94,6 +94,26 @@ height: 100%;
 border: 90px;
 
 }
+.textCard{
+    width: 280px;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    border: 2px solid black;
+
+}
+.menuHam {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .linhaHam {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
 
     footer{
         width: 100%;

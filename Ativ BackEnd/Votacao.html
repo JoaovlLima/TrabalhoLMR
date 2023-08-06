@@ -12,15 +12,112 @@
     <header>
         <img src="" alt="Logo">
         <div class="menu1">
-            <a class="linkMenu" href="#">HOME</a>
-            <a class="linkMenu" href="#">PRODUTOS</a>
-            <a class="linkMenu" href="#">FALE CONOSCO</a>
+            <a class="linkMenu" href="Index.html">HOME</a>
+            <a class="linkMenu" href="Produtos.html">PRODUTOS</a>
+            <a class="linkMenu" href="Votacao.html">FALE CONOSCO</a>
             <a class="linkMenu" href="#">LOGIN</a>
         </div>
-        <img src="img/download.png" alt="hamburger" class="hb">
+        <div class="menuHam">
+    
+   
+            <div class="linhaHam"></div>
+                
+               
+            <div class="linhaHam"></div>
+                
+               
+            <div class="linhaHam"></div>
+              </div>
+         
+          </div>
+  
        
         </div>
 
     </header>
+    <div class="camada1">
+<div class="form">
+  
+    <form action="#">
+        
+            <div class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                </div>
+            </div>
+            <div class="campo">
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" style="width: 20em" value="">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+            </div>
+    
+            <div class="grupo">
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">--</option>
+                        <option value="PR">PR</option>
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                    </select>
+                </div>
+            </div>
+    <br><br><br>
+            <div class="campo">
+                <label for="mensagem"  style="font-weight: 800; font-size: larger;">O que deseja?</label>
+                <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+            </div>
+    
+            <div class="campo">
+               
+                <label>
+                    <input type="checkbox" name="" value="1"> Concordo que receberei mensagem em meu E-mail
+                </label>
+            </div>
+    
+            <button type="submit" name="submit" onclick="votar()">Enviar</button>
+        </div>
+    </form>
+</div>
+    <div class="votacao">
+        <h2>Qual sua preferência?</h2>
+        <p>Nos ajude a saber qual é a melhor água votando abaixo</p>
+        <label for="indaia">Indaia</label>
+    <input type="radio" name="voto" value="Indaia">
+    <label for="crwatter">CRwatter</label>
+    <input type="radio" name="voto" value="CRwatter">
+    <label for="galao">Galão</label>
+    <input type="radio" name="voto" value="Galao">
+    </div>
+</div>
+<br><br><br><br><br><br><br><br>
+<footer>
+    <br>
+    <p>Todos os diretos de servisos</p>
+    <p>@ 2023</p>
+  
+  </footer>
 </body>
+<script src="Script.js"></script>
 </html>
